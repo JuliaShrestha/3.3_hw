@@ -1,11 +1,10 @@
-"use strict"
 const number = 10369;
 
-let numStr = number.toString();
+const numStr = number.toString();
 console.log(numStr);
 
-let numSpl = numStr.split('');
+const numSpl = numStr.split('');
 console.log(numSpl);
 
-let result = numSpl.join(' ');
+const result = numSpl.join(' ');
 console.log(result);
