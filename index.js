@@ -1,4 +1,4 @@
-const number = 10369;
+const number = prompt('Enter a number');
 
 const numStr = number.toString();
 console.log(numStr);
