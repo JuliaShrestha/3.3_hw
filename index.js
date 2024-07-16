@@ -1,10 +1,14 @@
 const number = prompt('Enter a number');
 
-const numStr = number.toString();
-console.log(numStr);
+if (number === null) {
+    alert('You canceled!');
+} else if (isNaN(+number) || !number.trim()) {
+    alert('Please, enter a valid number!');
+} else {
 
-const numSpl = numStr.split('');
+    const numSpl = number.split('');
 console.log(numSpl);
 
 const result = numSpl.join(' ');
 console.log(result);
+}
